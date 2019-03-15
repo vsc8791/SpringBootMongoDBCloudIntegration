@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://vaibhav:darkhorse@bingo-shard-00-00-9sc9p.mongodb.net:27017,bingo-shard-00-01-9sc9p.mongodb.net:27017,bingo-shard-00-02-9sc9p.mongodb.net:27017/test?ssl=true&replicaSet=Bingo-shard-0&authSource=admin&retryWrites=true 
+           # password: darkhorse
+      database: test
+    rest:      base-path: /api
+      
+    
+      
